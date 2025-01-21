@@ -1,0 +1,90 @@
+/* Full-Page Container */
+.request-info-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: #f9f9f9;
+   
+    
+}
+
+/* Image Styling */
+.request-info-image {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    max-height: 800px;
+    
+}
+
+/* Form Container */
+.request-info-form {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto; /* Center the form horizontally */
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    max-width: 800px; /* Optionally restrict max width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content */
+    max-height: 800px;
+   
+}
+
+/* Form Heading */
+.request-info-form h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Form Groups */
+.form-group {
+    margin-bottom: 1.5rem;
+    width: 100%; /* Ensure form group takes full width */
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background-color: rgb(255, 97, 93);
+}
