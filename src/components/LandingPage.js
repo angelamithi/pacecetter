@@ -56,7 +56,7 @@ const LandingPage = () => {
       {/* Program Highlights Section */}
       <section className="features">
         <div className="container">
-          <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '40px' }}>Program Highlights</h2>
+          <h2 style={{ textAlign: 'center', fontSize: '1.7rem', marginBottom: '40px' }}>Program Highlights</h2>
           <div className="features-grid">
             {/* Row 1 */}
             <div className="feature-item">
@@ -99,7 +99,7 @@ const LandingPage = () => {
       {/* Why Join Us Section */}
       <section className="why-join">
         <div className="container">
-          <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '40px' }}>Why Join Us?</h2>
+          <h2 style={{ textAlign: 'center', fontSize: '1.7rem', marginBottom: '40px' }}>Why Join Us?</h2>
           <div className="why-join-icons">
             <div className="why-item">
               <FaUsers size={48} className="why-icon" />
@@ -128,7 +128,7 @@ const LandingPage = () => {
       {/* Contact Form Section */}
       <section id="contact-form" className="contact-form">
         <div className="container">
-          <h2 style={{ textAlign: 'center', fontSize: '2.5rem', marginBottom: '40px' }}>Enroll Now</h2>
+          <h2 style={{ textAlign: 'center', fontSize: '1.7rem', marginBottom: '40px' }}>Enroll Now</h2>
           {submitted ? (
             <p style={{ textAlign: 'center', fontSize: '1.5rem', marginBottom: '40px' }}>Thank you! Your request has been submitted. We will get back to you shortly.</p>
           ) : (
